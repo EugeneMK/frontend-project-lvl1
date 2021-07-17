@@ -4,3 +4,4 @@
 [![Node CI](https://github.com/EugeneMK/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/EugeneMK/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
 [![asciicast](https://asciinema.org/a/PoHdIFovp1OAEIbOKbTS2Sll6.svg)](https://asciinema.org/a/PoHdIFovp1OAEIbOKbTS2Sll6)
+[![asciicast](https://asciinema.org/a/jTHqveGfNR68HSEsRLJVgCnQn.svg)](https://asciinema.org/a/jTHqveGfNR68HSEsRLJVgCnQn)

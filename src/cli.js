@@ -7,4 +7,6 @@ const greeting = () => {
   return userName;
 };
 
-export default greeting;
+const getUserAnswer = () => readlineSync.question('Your answer: ').toLowerCase();
+
+export { greeting, getUserAnswer };
