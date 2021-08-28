@@ -6,7 +6,7 @@ const progressionLength = 10;
 
 const getProgression = (startNum, step, hiddenNumPosition) => {
   const progression = [];
-  const lastNum = startNum + progressionLength * (step - 1);
+  const lastNum = startNum + step * (progressionLength - 1);
   for (let i = startNum; i <= lastNum; i += step) {
     progression.push(i);
   }
