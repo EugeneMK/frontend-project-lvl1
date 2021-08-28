@@ -1,9 +1,11 @@
-import { greeting, getUserAnswer } from './cli.js';
+import { greeting, getUserName } from './cli.js';
+import { getUserAnswer } from './utils.js';
 
 const numberOfSteps = 3;
 
 const runGame = (description, getQuestionAnswer) => {
-  const userName = greeting();
+  greeting();
+  const userName = getUserName();
   console.log(description);
 
   for (let step = 1; step <= numberOfSteps; step += 1) {

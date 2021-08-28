@@ -7,8 +7,9 @@
 The first project on the "front-end developer" course by Hexlet, five simple cli games.
 Local installation:
 1. clone repository
-2. publish the package locally `make publish`
-3. install the package `sudo npm link`
+2. install dependencies `make install`
+3. publish the package locally `make publish`
+4. install the package `sudo npm link`
 
 # Brain Even
 Start the game: `brain-even`
