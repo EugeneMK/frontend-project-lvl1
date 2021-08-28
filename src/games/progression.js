@@ -15,7 +15,7 @@ const getProgression = (startNum, step, hiddenNumPosition) => {
 };
 
 const getQuestionAnswer = () => {
-  const startNum = getRandom(0, 10);
+  const startNum = getRandom(0, 20);
   const step = getRandom(2, 10);
   const hiddenNumPosition = getRandom(0, progressionLength - 1);
   const progression = getProgression(startNum, step, hiddenNumPosition);
