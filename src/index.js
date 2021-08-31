@@ -8,7 +8,7 @@ const runGame = (description, getQuestionAnswer) => {
   const userName = getUserName();
   console.log(description);
 
-  for (let step = 1; step <= numberOfSteps; step += 1) {
+  for (let step = 0; step < numberOfSteps; step += 1) {
     const { question, correctAnswer } = getQuestionAnswer();
     console.log(`Question: ${question}`);
     const userAnswer = getUserAnswer();

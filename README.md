@@ -1,7 +1,7 @@
 ## Brain Games
 ---
 [![Actions Status](https://github.com/EugeneMK/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/EugeneMK/frontend-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/17099b04017958b84a0d/maintainability)](https://codeclimate.com/github/EugeneMK/frontend-project-lvl1/maintainability)
 [![Node CI](https://github.com/EugeneMK/frontend-project-lvl1/actions/workflows/nodejs.yml/badge.svg)](https://github.com/EugeneMK/frontend-project-lvl1/actions/workflows/nodejs.yml)
 
 The first project on the "front-end developer" course by Hexlet, five simple cli games.
