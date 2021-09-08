@@ -1,11 +1,11 @@
-import { greeting, getUserName } from './cli.js';
-import { getUserAnswer } from './utils.js';
+import { getUserName, getUserAnswer } from './utils.js';
 
 const numberOfSteps = 3;
 
 const runGame = (description, getQuestionAnswer) => {
-  greeting();
+  console.log('Welcome to the Brain Games!\n');
   const userName = getUserName();
+  console.log(`Hello, ${userName}!\n`);
   console.log(description);
 
   for (let step = 0; step < numberOfSteps; step += 1) {
