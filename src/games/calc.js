@@ -1,3 +1,4 @@
+import _ from 'lodash';
 import { getRandom } from '../utils.js';
 import runGame from '../index.js';
 
@@ -10,7 +11,9 @@ const calculate = (num1, num2, operator) => {
     '-': (a, b) => a - b,
     '*': (a, b) => a * b,
   };
-
+  if (!_.has(math, operator)) {
+    return 'No such operator';
+  }
   return math[operator](num1, num2);
 };
 
